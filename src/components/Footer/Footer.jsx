@@ -9,7 +9,8 @@ const Footer = () => {
         
         <div className={styles.col}>
           <div className={styles.logo}>
-            <img src="/assets/logo.jpg" alt="Comercial de Gás Lippert Logo" className={styles.logoImg} />
+            <i className="bi bi-fire"></i>
+            <span>Comercial de Gás Lippert</span>
           </div>
           <p className={styles.desc}>
             Gás e água entregues com praticidade em Capão Novo e região.

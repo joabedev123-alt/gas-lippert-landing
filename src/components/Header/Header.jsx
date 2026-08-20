@@ -5,7 +5,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={`container ${styles.headerContent}`}>
         <div className={styles.logo}>
-          <img src="/assets/logo.jpg" alt="Comercial de Gás Lippert Logo" className={styles.logoImg} />
+          <img src="/logo.png" alt="Comercial de Gás Lippert Logo" className={styles.logoImg} />
         </div>
         
         <nav className={styles.nav}>
