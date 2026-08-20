@@ -1,0 +1,169 @@
+.hero {
+  padding: 60px 0;
+  background-color: var(--color-light-bg);
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+}
+
+.heroContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.badge {
+  display: inline-block;
+  align-self: flex-start;
+  background-color: rgba(245, 34, 45, 0.1);
+  color: var(--color-primary-red);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 100px;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  font-size: 56px;
+  color: var(--color-deep-blue);
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.highlight {
+  color: var(--color-primary-red);
+}
+
+.description {
+  font-size: 18px;
+  color: var(--color-text-gray);
+  max-width: 90%;
+  line-height: 1.6;
+}
+
+.subInfo {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-primary-blue);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.btnLarge {
+  padding: 16px 32px;
+  font-size: 18px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.featureItem {
+  font-size: 14px;
+  color: var(--color-text-gray);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.featureItem i {
+  color: var(--color-primary-blue);
+}
+
+.heroImage {
+  position: relative;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  height: 100%;
+  min-height: 500px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imageOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  background: linear-gradient(to top, rgba(7, 29, 49, 0.4), transparent);
+}
+
+@media (max-width: 992px) {
+  .heroContainer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .badge {
+    align-self: center;
+  }
+
+  .title {
+    font-size: 42px;
+  }
+
+  .description {
+    margin: 0 auto;
+  }
+
+  .subInfo {
+    justify-content: center;
+  }
+
+  .actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .features {
+    justify-content: center;
+  }
+
+  .heroImage {
+    min-height: 350px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 40px 0;
+  }
+  
+  .title {
+    font-size: 36px;
+  }
+  
+  .btnLarge {
+    width: 100%;
+  }
+}

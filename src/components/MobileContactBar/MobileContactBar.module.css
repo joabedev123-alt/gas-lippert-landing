@@ -1,0 +1,42 @@
+.mobileBar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: var(--color-white);
+  box-shadow: 0 -4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.btnPhone, .btnWhatsapp {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btnPhone {
+  background-color: var(--color-primary-blue);
+  color: var(--color-white);
+}
+
+.btnWhatsapp {
+  background-color: var(--color-whatsapp);
+  color: var(--color-white);
+}
+
+.btnPhone i, .btnWhatsapp i {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .mobileBar {
+    display: flex;
+  }
+}

@@ -1,0 +1,89 @@
+.finalCta {
+  position: relative;
+  padding: 100px 0;
+  background-image: url('/assets/final_cta.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(to right, rgba(7, 29, 49, 0.95), rgba(7, 29, 49, 0.85));
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.desc {
+  font-size: 20px;
+  opacity: 0.9;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.actions .btn {
+  padding: 16px 32px;
+  font-size: 18px;
+}
+
+.btnPhone {
+  background-color: var(--color-white);
+  color: var(--color-deep-blue);
+}
+
+.btnPhone:hover {
+  background-color: #f0f0f0;
+}
+
+.phoneDisplay {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--color-white);
+}
+
+.phoneDisplay i {
+  color: var(--color-primary-red);
+}
+
+@media (max-width: 768px) {
+  .finalCta {
+    padding: 80px 0;
+  }
+  
+  .title {
+    font-size: 36px;
+  }
+  
+  .actions {
+    flex-direction: column;
+    padding: 0 24px;
+  }
+  
+  .actions .btn {
+    width: 100%;
+  }
+}
