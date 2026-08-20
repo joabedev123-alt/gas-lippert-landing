@@ -15,15 +15,13 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-size: 24px;
-  font-weight: 800;
   margin-bottom: 16px;
-  color: var(--color-white);
 }
 
-.logo i {
-  color: var(--color-primary-red);
+.logoImg {
+  height: 85px;
+  width: auto;
+  object-fit: contain;
 }
 
 .desc {
