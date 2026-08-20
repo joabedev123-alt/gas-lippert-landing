@@ -72,6 +72,7 @@
   top: 16px;
   right: 16px;
   background-color: var(--color-primary-red);
+  background-color: var(--color-primary-blue);
   color: var(--color-white);
   font-size: 12px;
   font-weight: 800;
@@ -79,7 +80,7 @@
   border-radius: 100px;
   z-index: 10;
   letter-spacing: 0.5px;
-  box-shadow: 0 4px 10px rgba(245, 34, 45, 0.4);
+  box-shadow: 0 4px 10px rgba(212, 175, 55, 0.4);
 }
 
 .imageWrapper {

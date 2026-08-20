@@ -34,16 +34,16 @@
 
 .card:hover {
   transform: translateY(-5px);
+  border-color: rgba(212, 175, 55, 0.3);
   box-shadow: var(--shadow-md);
-  border-color: rgba(8, 120, 209, 0.2);
 }
 
 .iconWrapper {
   width: 60px;
   height: 60px;
   margin: 0 auto 20px;
-  background-color: rgba(245, 34, 45, 0.05);
-  color: var(--color-primary-red);
+  background-color: rgba(212, 175, 55, 0.15);
+  color: var(--color-primary-blue);
   border-radius: 50%;
   display: flex;
   align-items: center;

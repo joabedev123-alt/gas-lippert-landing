@@ -24,7 +24,7 @@ const Products = () => {
             <div className={styles.cardBadge}>MAIS PEDIDO</div>
             <div className={styles.imageWrapper}>
               <img 
-                src="/assets/gas_p13.jpg" 
+                src="/gas.jpeg" 
                 alt="Gás de Cozinha P13" 
                 loading="lazy"
               />
@@ -54,7 +54,7 @@ const Products = () => {
           <div className={styles.card}>
             <div className={styles.imageWrapper}>
               <img 
-                src="/assets/gas_p45.jpg" 
+                src="/gas.jpeg" 
                 alt="Gás P45" 
                 loading="lazy"
               />

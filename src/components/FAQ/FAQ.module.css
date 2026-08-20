@@ -69,7 +69,8 @@
 }
 
 .open.faqItem {
-  border-color: var(--color-primary-blue);
+  background-color: var(--color-white);
+  border-color: rgba(212, 175, 55, 0.3);
   box-shadow: var(--shadow-sm);
 }
 

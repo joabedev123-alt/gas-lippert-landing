@@ -1,16 +1,16 @@
 :root {
-  /* Colors */
-  --color-primary-red: #F5222D;
-  --color-primary-blue: #0878D1;
-  --color-deep-blue: #071D31;
+  /* Colors - Luxury Theme */
+  --color-primary-red: #1A1A1A;
+  --color-primary-blue: #D4AF37;
+  --color-deep-blue: #111111;
   --color-white: #FFFFFF;
-  --color-light-bg: #F6F8FA;
-  --color-text-gray: #5C6773;
+  --color-light-bg: #FDFBF7;
+  --color-text-gray: #7A7A7A;
   --color-text-dark: #1A1A1A;
   --color-whatsapp: #25D366;
   --color-whatsapp-hover: #1EBE5A;
-  --color-red-hover: #D41A25;
-  --color-blue-hover: #0764B0;
+  --color-red-hover: #111111;
+  --color-blue-hover: #B8860B;
   
   /* Layout */
   --max-width: 1200px;
@@ -113,12 +113,13 @@ img {
 
 .btn-primary {
   background-color: var(--color-primary-blue);
-  color: var(--color-white);
+  color: var(--color-deep-blue);
 }
 
 .btn-primary:hover {
   background-color: var(--color-blue-hover);
-  box-shadow: 0 8px 16px rgba(8, 120, 209, 0.3);
+  color: var(--color-white);
+  box-shadow: 0 8px 16px rgba(212, 175, 55, 0.3);
 }
 
 .btn-outline {
@@ -129,7 +130,7 @@ img {
 
 .btn-outline:hover {
   background-color: var(--color-primary-blue);
-  color: var(--color-white);
+  color: var(--color-deep-blue);
 }
 
 /* Responsive adjustments */

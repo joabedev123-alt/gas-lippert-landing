@@ -1,6 +1,6 @@
 .hero {
   padding: 60px 0;
-  background-color: var(--color-light-bg);
+  background-color: var(--color-deep-blue);
   min-height: 85vh;
   display: flex;
   align-items: center;
@@ -23,8 +23,8 @@
 .badge {
   display: inline-block;
   align-self: flex-start;
-  background-color: rgba(245, 34, 45, 0.1);
-  color: var(--color-primary-red);
+  background-color: rgba(212, 175, 55, 0.15);
+  color: var(--color-primary-blue);
   font-size: 13px;
   font-weight: 700;
   padding: 6px 12px;
@@ -34,18 +34,18 @@
 
 .title {
   font-size: 56px;
-  color: var(--color-deep-blue);
+  color: var(--color-white);
   line-height: 1.1;
   letter-spacing: -1px;
 }
 
 .highlight {
-  color: var(--color-primary-red);
+  color: var(--color-primary-blue);
 }
 
 .description {
   font-size: 18px;
-  color: var(--color-text-gray);
+  color: rgba(255, 255, 255, 0.7);
   max-width: 90%;
   line-height: 1.6;
 }
@@ -79,7 +79,7 @@
 
 .featureItem {
   font-size: 14px;
-  color: var(--color-text-gray);
+  color: rgba(255, 255, 255, 0.7);
   display: flex;
   align-items: center;
   gap: 6px;
