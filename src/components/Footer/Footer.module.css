@@ -156,6 +156,10 @@
     grid-template-columns: 1fr;
     gap: 32px;
   }
+  
+  .logoImg {
+    height: 60px;
+  }
 }
 
 @media (min-width: 769px) {

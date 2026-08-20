@@ -97,4 +97,8 @@
   .btnPrimary {
     padding: 10px;
   }
+  
+  .logoImg {
+    height: 60px;
+  }
 }
