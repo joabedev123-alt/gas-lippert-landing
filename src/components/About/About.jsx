@@ -36,11 +36,11 @@ const About = () => {
             </li>
             <li>
               <i className="bi bi-telephone"></i>
-              <span>(051) 99723-4647</span>
+              <a href="tel:+5551997234647" style={{ color: 'inherit', textDecoration: 'none' }}>(051) 99723-4647</a>
             </li>
             <li>
               <i className="bi bi-whatsapp"></i>
-              <span>(051) 99723-4647</span>
+              <a href="https://wa.me/5551997234647" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>(051) 99723-4647</a>
             </li>
           </ul>
 
