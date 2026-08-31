@@ -33,7 +33,6 @@ const Hero = () => {
         </div>
         
         <div className={styles.heroImageWrapper}>
-          <div className={styles.blobBackground}></div>
           <div className={styles.blobImageContainer}>
             <img 
               src="/ChatGPT%20Image%2031%20de%20ago.%20de%202026,%2012_38_55.png" 
