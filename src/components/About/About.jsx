@@ -25,15 +25,14 @@ const About = () => {
           <h2 className={styles.title}>Comercial de Gás Lippert</h2>
           
           <div className={styles.hours}>
-            <p><strong>Atendimento</strong></p>
-            <p>Seg à Sáb: 08h às 20:30h</p>
-            <p>Dom e Feriados: 08h às 13:30h</p>
+            <p><strong>Segunda a sábado:</strong> 08:00/22:00</p>
+            <p><strong>Domingo:</strong> das 08:00/17:00</p>
           </div>
           
           <ul className={styles.contactList}>
             <li>
               <i className="bi bi-geo-alt"></i>
-              <span>Av. Paraguassu, 605<br/>Capão da Canoa/RS</span>
+              <span>Avenida Paraguassu, 3602<br/>Capão Novo - Capão da Canoa</span>
             </li>
             <li>
               <i className="bi bi-telephone"></i>
