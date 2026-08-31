@@ -9,7 +9,7 @@ const Products = () => {
     {
       id: 'p13',
       name: 'P13',
-      image: '/gas.jpeg',
+      image: '/gas%20p%2013.png',
       message: 'Olá! Vim pelo site da Comercial de Gás Lippert e gostaria de pedir um gás P13.'
     },
     {
@@ -21,7 +21,7 @@ const Products = () => {
     {
       id: 'agua',
       name: 'Água 20L',
-      image: '/agua%20%2020l.jpeg',
+      image: '/agua%2020l.png',
       message: 'Olá! Vim pelo site da Comercial de Gás Lippert e gostaria de pedir água mineral de 20 litros.'
     }
   ];
