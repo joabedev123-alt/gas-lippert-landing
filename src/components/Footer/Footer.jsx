@@ -14,12 +14,10 @@ const Footer = () => {
         </div>
 
         <div className={styles.col}>
-          <h4 className={styles.colTitle}>Sobre Nós</h4>
+          <h4 className={styles.colTitle}>Horários</h4>
           <p className={styles.text}>
-            COMERCIAL DE GÁS LIPPERT LTDA<br/>
-            <br/>
-            Atendimento Rápido<br/>
-            Entrega Local
+            Segunda a sábado: 08:00/22:00<br/>
+            Domingo: das 08:00/17:00
           </p>
         </div>
 
@@ -30,8 +28,8 @@ const Footer = () => {
             contato@gaslippert.com.br
           </p>
           <p className={styles.text}>
-            Av. Paraguassu, 605<br/>
-            Capão da Canoa/RS
+            Avenida Paraguassu, 3602<br/>
+            Capão Novo - Capão da Canoa
           </p>
         </div>
 
