@@ -37,11 +37,11 @@ const About = () => {
             </li>
             <li>
               <i className="bi bi-telephone"></i>
-              <span>(51) 99723-4647</span>
+              <span>(051) 99723-4647</span>
             </li>
             <li>
               <i className="bi bi-whatsapp"></i>
-              <span>(51) 99723-4647</span>
+              <span>(051) 99723-4647</span>
             </li>
           </ul>
 

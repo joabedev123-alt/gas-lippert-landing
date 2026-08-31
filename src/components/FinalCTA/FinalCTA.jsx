@@ -25,7 +25,7 @@ const FinalCTA = () => {
         </div>
         
         <p className={styles.phoneDisplay}>
-          <i className="bi bi-phone-vibrate"></i> (51) 99723-4647
+          <i className="bi bi-phone-vibrate"></i> (051) 99723-4647
         </p>
       </div>
     </section>

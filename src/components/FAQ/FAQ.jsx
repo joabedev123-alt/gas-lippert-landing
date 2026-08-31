@@ -19,7 +19,7 @@ const FAQ = () => {
     },
     {
       q: "Como faço um pedido?",
-      a: "Você pode falar diretamente com nossa equipe pelo WhatsApp ou ligar para (51) 99723-4647."
+      a: "Você pode falar diretamente com nossa equipe pelo WhatsApp ou ligar para (051) 99723-4647."
     },
     {
       q: "Posso pedir água junto com o gás?",

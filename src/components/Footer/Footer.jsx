@@ -24,7 +24,7 @@ const Footer = () => {
         <div className={styles.col}>
           <h4 className={styles.colTitle}>Contato</h4>
           <p className={styles.text}>
-            (51) 99723-4647<br/>
+            (051) 99723-4647<br/>
             contato@gaslippert.com.br
           </p>
           <p className={styles.text}>
