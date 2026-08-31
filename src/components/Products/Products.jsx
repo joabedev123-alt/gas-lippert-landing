@@ -15,7 +15,7 @@ const Products = () => {
     {
       id: 'p45',
       name: 'P45',
-      image: '/gas%20p%2045.jpeg',
+      image: '/gas%20p%2045-Photoroom.png',
       message: 'Olá! Vim pelo site da Comercial de Gás Lippert e gostaria de informações para pedir um gás P45.'
     },
     {
