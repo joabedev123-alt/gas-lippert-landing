@@ -25,7 +25,7 @@ const Footer = () => {
           <h4 className={styles.colTitle}>Contato</h4>
           <p className={styles.text}>
             (051) 99723-4647<br/>
-            contato@gaslippert.com.br
+            comerciallippert@gmail.com
           </p>
           <p className={styles.text}>
             Avenida Paraguassu, 3602<br/>
