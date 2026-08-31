@@ -96,3 +96,17 @@
     max-height: 400px;
   }
 }
+
+@media (max-width: 768px) {
+  .whiteBox {
+    padding: 40px 20px;
+  }
+  
+  .title {
+    font-size: 28px;
+  }
+  
+  .image {
+    max-height: 280px;
+  }
+}

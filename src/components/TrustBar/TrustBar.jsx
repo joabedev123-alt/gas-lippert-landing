@@ -28,7 +28,7 @@ const TrustBar = () => {
 
         <div className={styles.imageWrapper}>
           <img 
-            src="/assets/delivery.png" 
+            src="/entregador.png" 
             alt="Entregador de gás" 
             className={styles.image}
             loading="lazy"
