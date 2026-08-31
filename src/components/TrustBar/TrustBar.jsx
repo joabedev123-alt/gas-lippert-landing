@@ -28,7 +28,7 @@ const TrustBar = () => {
 
         <div className={styles.imageWrapper}>
           <img 
-            src="/entregador%20de%20gas.png" 
+            src="/WhatsApp%20Image%202026-08-31%20at%2012.32.51.jpeg" 
             alt="Entregador de gás" 
             className={styles.image}
             loading="lazy"
