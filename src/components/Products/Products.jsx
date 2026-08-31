@@ -15,13 +15,13 @@ const Products = () => {
     {
       id: 'p45',
       name: 'P45',
-      image: '/gas.jpeg',
+      image: '/gas%20p%2045.jpeg',
       message: 'Olá! Vim pelo site da Comercial de Gás Lippert e gostaria de informações para pedir um gás P45.'
     },
     {
       id: 'agua',
       name: 'Água 20L',
-      image: '/assets/water_20l.jpg',
+      image: '/agua%20%2020l.jpeg',
       message: 'Olá! Vim pelo site da Comercial de Gás Lippert e gostaria de pedir água mineral de 20 litros.'
     }
   ];
