@@ -35,7 +35,7 @@ const Hero = () => {
           <div className={styles.blobBackground}></div>
           <div className={styles.blobImageContainer}>
             <img 
-              src="/assets/hero_bg.jpg" 
+              src="/hero%20foto.png" 
               alt="Mulher cozinhando" 
               className={styles.image}
               loading="eager"
