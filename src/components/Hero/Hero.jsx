@@ -6,7 +6,8 @@ const Hero = () => {
       <div className={`container ${styles.heroContainer}`}>
         <div className={styles.heroContent}>
           <h1 className={styles.title}>
-            Lippert Comercial de Gás
+            <span className={styles.textRed}>LIPPERT</span><br />
+            <span className={styles.titleSmall}>Comercial de Gás e água</span>
           </h1>
           <p className={styles.subtitle}>
             Revenda Autorizada de gás e água

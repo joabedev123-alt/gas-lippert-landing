@@ -25,6 +25,16 @@
   color: var(--color-white);
 }
 
+.textRed {
+  color: var(--color-primary-red);
+}
+
+.titleSmall {
+  font-size: 32px;
+  font-weight: 700;
+  display: block; /* Garante que fique isolado de eventuais quebras */
+}
+
 .subtitle {
   font-size: 20px;
   font-weight: 600;
@@ -106,6 +116,10 @@
 @media (max-width: 768px) {
   .title {
     font-size: 36px;
+  }
+  
+  .titleSmall {
+    font-size: 24px;
   }
   
   .blobBackground, .blobImageContainer {
