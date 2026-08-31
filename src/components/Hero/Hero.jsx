@@ -36,7 +36,7 @@ const Hero = () => {
           <div className={styles.blobBackground}></div>
           <div className={styles.blobImageContainer}>
             <img 
-              src="/hero%20foto.png" 
+              src="/ChatGPT%20Image%2031%20de%20ago.%20de%202026,%2012_38_55.png" 
               alt="Mulher cozinhando" 
               className={styles.image}
               loading="eager"
