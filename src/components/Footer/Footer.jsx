@@ -59,6 +59,9 @@ const Footer = () => {
       <div className={styles.bottomBar}>
         <div className={`container ${styles.bottomContainer}`}>
           <p>&copy; Copyright COMERCIAL DE GÁS LIPPERT LTDA<br/>Todos os Direitos Reservados</p>
+          <p className={styles.camaly}>
+            Produzida com <span className={styles.heart}>❤️</span> por <a href="https://camaly.com.br/" target="_blank" rel="noopener noreferrer">CAMALY</a>
+          </p>
         </div>
       </div>
     </footer>

@@ -96,6 +96,25 @@
   line-height: 1.5;
 }
 
+.camaly {
+  margin-top: 12px;
+  font-size: 13px !important;
+}
+
+.camaly a {
+  color: var(--color-primary-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.camaly a:hover {
+  text-decoration: underline;
+}
+
+.heart {
+  color: var(--color-primary-red);
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
