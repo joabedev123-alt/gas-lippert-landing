@@ -100,9 +100,21 @@
   .container {
     flex-direction: column;
     gap: 32px;
+    text-align: center;
+    align-items: center;
   }
   
+  .colLogo {
+    justify-content: center;
+    width: 100%;
+  }
+
   .logoImg {
     transform: scale(2);
+    transform-origin: center center;
+  }
+
+  .socialIcons {
+    justify-content: center;
   }
 }
