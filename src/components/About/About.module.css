@@ -1,99 +1,82 @@
 .about {
-  padding: 100px 0;
+  padding: 80px 0;
   background-color: var(--color-light-bg);
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  display: flex;
   align-items: center;
-  padding: 0 24px;
+  gap: 60px;
 }
 
-.imageCol {
-  position: relative;
+.mapCol {
+  flex: 1;
+  height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-.image {
-  border-radius: var(--border-radius-lg);
-  box-shadow: var(--shadow-lg);
+.mapPlaceholder {
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 100%;
+  background-color: #e5e5e5;
 }
 
-.eyebrow {
-  display: block;
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--color-primary-red);
-  margin-bottom: 16px;
-  letter-spacing: 1px;
+.contentCol {
+  flex: 1;
 }
 
 .title {
-  font-size: 40px;
-  color: var(--color-deep-blue);
-  margin-bottom: 32px;
-  line-height: 1.2;
-}
-
-.textWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  font-size: 18px;
-  color: var(--color-text-gray);
-  line-height: 1.6;
-  margin-bottom: 40px;
-}
-
-.stats {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.statItem {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  font-weight: 600;
-  color: var(--color-deep-blue);
-  font-size: 16px;
-}
-
-.statIcon {
-  width: 40px;
-  height: 40px;
-  background-color: var(--color-white);
   color: var(--color-primary-blue);
-  border-radius: 50%;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.hours {
+  margin-bottom: 24px;
+  color: var(--color-text-dark);
+}
+
+.hours p {
+  margin-bottom: 4px;
+}
+
+.contactList {
+  margin-bottom: 32px;
+}
+
+.contactList li {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  box-shadow: var(--shadow-sm);
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+  color: var(--color-text-dark);
+}
+
+.contactList i {
+  color: var(--color-primary-red);
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.btnContact {
+  padding: 12px 32px;
+  border-radius: 50px;
 }
 
 @media (max-width: 992px) {
   .container {
-    grid-template-columns: 1fr;
-    gap: 40px;
+    flex-direction: column-reverse;
   }
   
-  .image {
-    height: 350px;
-  }
-}
-
-@media (max-width: 768px) {
-  .about {
-    padding: 60px 0;
+  .mapCol {
+    width: 100%;
+    height: 300px; /* Reduzindo altura do mapa no celular */
   }
   
-  .title {
-    font-size: 32px;
+  .contentCol {
+    width: 100%;
   }
 }

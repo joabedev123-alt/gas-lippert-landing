@@ -1,16 +1,16 @@
 :root {
-  /* Colors - Luxury Theme */
-  --color-primary-red: #1A1A1A;
-  --color-primary-blue: #D4AF37;
-  --color-deep-blue: #111111;
+  /* Colors - Blue and Red Theme */
+  --color-primary-blue: #0F52BA;
+  --color-primary-red: #E32636;
+  --color-deep-blue: #0A3A82;
   --color-white: #FFFFFF;
-  --color-light-bg: #FDFBF7;
-  --color-text-gray: #7A7A7A;
-  --color-text-dark: #1A1A1A;
-  --color-whatsapp: #25D366;
-  --color-whatsapp-hover: #1EBE5A;
-  --color-red-hover: #111111;
-  --color-blue-hover: #B8860B;
+  --color-light-bg: #F9FAFB;
+  --color-text-gray: #4B5563;
+  --color-text-dark: #111827;
+  --color-whatsapp: #E32636; /* Using red for action buttons to match design, but keeping variable name if it's used elsewhere */
+  --color-whatsapp-hover: #C81D2A;
+  --color-red-hover: #C81D2A;
+  --color-blue-hover: #1C68DB;
   
   /* Layout */
   --max-width: 1200px;
@@ -90,7 +90,7 @@ img {
   padding: 14px 28px;
   font-size: 16px;
   font-weight: 600;
-  border-radius: var(--border-radius-sm);
+  border-radius: 50px; /* Fully rounded buttons */
   cursor: pointer;
   transition: all var(--transition-fast);
   border: none;
@@ -108,29 +108,29 @@ img {
 
 .btn-whatsapp:hover {
   background-color: var(--color-whatsapp-hover);
-  box-shadow: 0 8px 16px rgba(37, 211, 102, 0.3);
+  box-shadow: 0 8px 16px rgba(227, 38, 54, 0.3);
 }
 
 .btn-primary {
-  background-color: var(--color-primary-blue);
-  color: var(--color-deep-blue);
+  background-color: var(--color-primary-red);
+  color: var(--color-white);
 }
 
 .btn-primary:hover {
-  background-color: var(--color-blue-hover);
+  background-color: var(--color-red-hover);
   color: var(--color-white);
-  box-shadow: 0 8px 16px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 8px 16px rgba(227, 38, 54, 0.3);
 }
 
 .btn-outline {
   background-color: transparent;
-  color: var(--color-primary-blue);
-  border: 2px solid var(--color-primary-blue);
+  color: var(--color-white);
+  border: 2px solid var(--color-primary-red);
 }
 
 .btn-outline:hover {
-  background-color: var(--color-primary-blue);
-  color: var(--color-deep-blue);
+  background-color: var(--color-primary-red);
+  color: var(--color-white);
 }
 
 /* Responsive adjustments */

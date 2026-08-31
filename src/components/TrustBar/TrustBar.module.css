@@ -1,60 +1,98 @@
 .trustBar {
-  background-color: var(--color-white);
-  padding: 40px 0;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  margin-top: -20px;
-  position: relative;
-  z-index: 10;
+  background-color: var(--color-primary-blue);
+  padding: 0; /* Remove top/bottom padding so image can overflow or touch borders */
+  overflow: hidden;
+  margin-top: 40px;
 }
 
 .trustContainer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-  padding: 0 24px;
-}
-
-.trustItem {
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
 }
 
-.iconWrapper {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
-  background-color: rgba(212, 175, 55, 0.15);
-  color: var(--color-primary-blue);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  flex-shrink: 0;
+.whiteBox {
+  background-color: var(--color-white);
+  padding: 60px 40px;
+  max-width: 500px;
+  border-radius: 8px;
+  margin: 60px 0;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 2;
 }
 
 .title {
-  font-size: 16px;
-  color: var(--color-deep-blue);
-  margin-bottom: 4px;
+  color: var(--color-primary-blue);
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
 }
 
 .desc {
-  font-size: 13px;
   color: var(--color-text-gray);
-  line-height: 1.4;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.actionBtn {
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-size: 16px;
+  flex: 1;
+  min-width: fit-content;
+}
+
+.imageWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  height: 100%;
+}
+
+.image {
+  max-height: 500px;
+  width: auto;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+  /* The image naturally sits on the bottom of the section */
+  margin-bottom: -10px; /* Pull it slightly down to hide bottom cut */
 }
 
 @media (max-width: 992px) {
   .trustContainer {
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 32px;
+    flex-direction: column;
+    padding-top: 40px;
   }
-}
-
-@media (max-width: 576px) {
-  .trustContainer {
-    grid-template-columns: 1fr;
-    row-gap: 24px;
+  
+  .whiteBox {
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .actions {
+    justify-content: center;
+  }
+  
+  .imageWrapper {
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .image {
+    max-height: 400px;
   }
 }

@@ -3,7 +3,7 @@
   top: 0;
   z-index: 100;
   background-color: var(--color-white);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
   padding: 16px 0;
 }
 
@@ -11,7 +11,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24px;
 }
 
 .logo {
@@ -20,21 +19,26 @@
 }
 
 .logoImg {
-  height: 85px;
+  height: 60px;
   width: auto;
   object-fit: contain;
+  transform: scale(2.5); /* Aumenta a logo significativamente (cerca de 3cm dependendo da tela) */
+  transform-origin: left center; /* Mantém o alinhamento à esquerda */
+  z-index: 101; /* Garante que fique por cima de outros elementos caso transborde */
 }
 
 .nav {
   display: flex;
-  gap: 24px;
+  gap: 32px;
+  align-items: center;
 }
 
 .nav a {
   font-weight: 500;
-  font-size: 15px;
-  color: var(--color-text-gray);
-  transition: color var(--transition-fast);
+  font-size: 16px;
+  color: var(--color-text-dark);
+  transition: color 0.2s ease;
+  text-decoration: none;
 }
 
 .nav a:hover {
@@ -43,62 +47,16 @@
 
 .ctas {
   display: flex;
-  gap: 12px;
   align-items: center;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 10px 20px;
-  font-size: 14px;
-  font-weight: 600;
-  border-radius: var(--border-radius-sm);
-  transition: all var(--transition-fast);
-}
-
-.btnSecondary {
-  color: var(--color-primary-blue);
-  background: transparent;
-  border: 1px solid var(--color-primary-blue);
-}
-
-.btnSecondary:hover {
-  background: var(--color-primary-blue);
-  color: var(--color-white);
-}
-
-.btnPrimary {
-  padding: 10px 20px;
-  font-size: 14px;
-}
-
-@media (max-width: 992px) {
-  .nav {
-    display: none;
-  }
 }
 
 @media (max-width: 768px) {
-  .headerContent {
-    padding: 0 16px;
-  }
-  
-  .hideMobile {
+  .nav {
     display: none;
   }
   
-  .btn {
-    padding: 10px;
-  }
-  
-  .btnPrimary {
-    padding: 10px;
-  }
-  
   .logoImg {
-    height: 60px;
+    height: 50px;
+    transform: scale(2); /* Ajuste proporcional no mobile */
   }
 }

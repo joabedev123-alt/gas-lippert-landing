@@ -2,47 +2,37 @@ import styles from './TrustBar.module.css';
 
 const TrustBar = () => {
   return (
-    <section className={styles.trustBar}>
+    <section className={`bg-primary ${styles.trustBar}`}>
       <div className={`container ${styles.trustContainer}`}>
         
-        <div className={styles.trustItem}>
-          <div className={styles.iconWrapper}>
-            <i className="bi bi-clock-history"></i>
-          </div>
-          <div>
-            <h3 className={styles.title}>Entrega rápida</h3>
-            <p className={styles.desc}>Receba sem precisar sair de casa.</p>
-          </div>
-        </div>
-
-        <div className={styles.trustItem}>
-          <div className={styles.iconWrapper}>
-            <i className="bi bi-headset"></i>
-          </div>
-          <div>
-            <h3 className={styles.title}>Atendimento direto</h3>
-            <p className={styles.desc}>Fale com uma pessoa pelo WhatsApp ou telefone.</p>
-          </div>
-        </div>
-
-        <div className={styles.trustItem}>
-          <div className={styles.iconWrapper}>
-            <i className="bi bi-geo-alt-fill"></i>
-          </div>
-          <div>
-            <h3 className={styles.title}>Atendimento local</h3>
-            <p className={styles.desc}>Capão Novo e região.</p>
+        <div className={styles.whiteBox}>
+          <h2 className={styles.title}>Estamos sempre perto de você.</h2>
+          <p className={styles.desc}>
+            Receba o seu gás rapidinho! Peça seu gás aqui na Comercial de Gás Lippert.
+          </p>
+          
+          <div className={styles.actions}>
+            <a 
+              href="https://wa.me/5551997234647" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={`btn btn-primary ${styles.actionBtn}`}
+            >
+              WhatsApp <i className="bi bi-whatsapp"></i>
+            </a>
+            <a href="tel:+5551997234647" className={`btn btn-primary ${styles.actionBtn}`}>
+              Ligue Grátis <i className="bi bi-telephone-fill"></i>
+            </a>
           </div>
         </div>
 
-        <div className={styles.trustItem}>
-          <div className={styles.iconWrapper}>
-            <i className="bi bi-box-seam-fill"></i>
-          </div>
-          <div>
-            <h3 className={styles.title}>Gás + Água</h3>
-            <p className={styles.desc}>Tudo em um único pedido.</p>
-          </div>
+        <div className={styles.imageWrapper}>
+          <img 
+            src="/assets/delivery.png" 
+            alt="Entregador de gás" 
+            className={styles.image}
+            loading="lazy"
+          />
         </div>
 
       </div>
