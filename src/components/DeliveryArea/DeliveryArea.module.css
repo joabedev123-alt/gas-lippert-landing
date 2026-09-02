@@ -148,3 +148,12 @@
     gap: 40px;
   }
 }
+
+@media (max-width: 768px) {
+  .deliveryArea {
+    padding: 40px 0;
+  }
+  .title {
+    font-size: 32px;
+  }
+}

@@ -56,7 +56,11 @@
   }
   
   .logoImg {
-    height: 50px;
-    transform: scale(2); /* Ajuste proporcional no mobile */
+    height: 40px;
+    transform: scale(1.5);
+  }
+  
+  .headerContent {
+    padding: 0 16px;
   }
 }
